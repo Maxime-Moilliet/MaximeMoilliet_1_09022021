@@ -257,4 +257,105 @@ a {
   line-height: 1.7rem;
   margin-left: 30px;
 }
-
+.property {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.property__mostproperties {
+  background-color: #f2f2f2;
+  padding: 32px;
+}
+.property__mostproperties-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.property__mostproperties-header h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+.property__mostproperties-header i {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+.property__mostproperties-body-card {
+  display: flex;
+  align-items: center;
+  max-width: 330px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.property__mostproperties-body-card-img {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.property__mostproperties-body-card-content {
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+.property__mostproperties-body-card-content h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+  margin-bottom: 12px;
+}
+.property__mostproperties-body-card-content p,
+.property__mostproperties-body-card-content p span {
+  color: #636363;
+  font-size: 1.3rem;
+  margin-bottom: 38px;
+}
+.property__mostproperties-body-card-content p span {
+  color: #000000;
+  font-weight: 700;
+  margin-left: 2px;
+}
+.fas.fa-star {
+  color: #d9d9d9;
+  font-size: 1.1rem;
+}
+.fas.fa-star.active {
+  color: #0065fc;
+}
+.property__properties {
+  padding: 32px;
+}
+.property__properties-header h2 {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+.property__properties-footer p {
+  margin-top: 30px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+@media only screen and (max-width: 430px) {
+  .search {
+    margin: 32px 18px;
+  }
+  .property__mostproperties {
+    padding: 32px 18px;
+  }
+  .property__properties {
+    padding: 32px 18px;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .property__mostproperties-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .property__mostproperties-body a:nth-child(2) {
+    margin-left: 20px;
+  }
+}
