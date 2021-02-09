@@ -129,4 +129,132 @@ a {
   color: inherit;
 }
 
+.search {
+  margin: 32px;
+}
+.search__title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-bottom: 14px;
+}
+.search__content {
+  color: #636363;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.search__q {
+  margin: 32px 0px;
+  display: flex;
+}
+.search__q-icon {
+  font-size: 1.6rem;
+  background-color: #f2f2f2;
+  padding: 17px 15px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.search__q-content {
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 700;
+  line-height: 1.8rem;
+  border: 1px solid #f2f2f2;
+  padding-left: 15px;
+}
+.search__q-content:focus {
+  outline: none;
+}
+.search__q-content::placeholder {
+  font-size: 1.5rem;
+  color: #000000;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.search__q-submit {
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-color: #0065fc;
+  border: none;
+  border-radius: 12px;
+  transform: translateX(-0.9rem);
+  padding: 15px 15px;
+  cursor: pointer;
+}
+.search__q-submit-icon {
+  color: #ffffff;
+}
+.search__filter-title {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.search__filter-links {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+}
+.search__filter-link {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  color: #000000;
+  border-radius: 50px;
+  box-shadow: 0 0 0 2px#d9d9d9 inset;
+  margin-top: 9px;
+  margin-right: 9px;
+  transition: 0.3s all;
+}
+.search__filter-link:hover {
+  color: #0065fc;
+  box-shadow: 0 0 0 2px #deebff inset;
+}
+.search__filter-link span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: inherit;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  margin-left: 11px;
+  margin-right: 15px;
+}
+.search__filter-link div {
+  width: 17px;
+  height: 17px;
+  background-color: #deebff;
+  border-radius: 50%;
+  padding: 14px;
+}
+.search__filter-link div i {
+  font-size: 1.5rem;
+  color: #0065fc;
+}
+.search__filter-link div i.fa-money-bill-wave-alt {
+  transform: translateY(1px) translateX(-1px);
+}
+.search__filter-link div i.fa-child {
+  transform: translateY(1px) translateX(3px);
+}
+.search__filter-link div i.fa-heart {
+  transform: translateY(1px) translateX(1px);
+}
+.search__filter-info div i {
+  float: left;
+  color: #0065fc;
+  background-color: white;
+  border: 1px solid #d9d9d9;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: -3px;
+  padding: 7px 8px;
+}
+.search__filter-info p {
+  font-size: 1.4rem;
+  color: #636363;
+  letter-spacing: 0.3px;
+  line-height: 1.7rem;
+  margin-left: 30px;
+}
 
